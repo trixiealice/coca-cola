@@ -61,3 +61,13 @@ main{
     filter: drop-shadow(0px 200px 20px #0006);
 
 }
+
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-right: 75px;
+
+}
+
