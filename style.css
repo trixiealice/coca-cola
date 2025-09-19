@@ -23,3 +23,17 @@ background: linear-gradient(#CF2425,#DA6062 50%,#DA6062 60%,#DA3B3F);
     z-index: -1;
 
 }
+
+header{
+    height: 100px;
+}
+header nav{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    margin-left: 75px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
