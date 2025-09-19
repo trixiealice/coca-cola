@@ -71,3 +71,28 @@ footer{
 
 }
 
+@media (max-width:768px) {
+    header nav {
+        margin-left: 25px;
+    }
+    align-items: flex-end;
+main {
+    align-itens: flex-end;
+}
+.content-text {
+    transform: translateX(0);
+    top: 80px;
+    font-size: 1rem;
+    width: 100px;
+    text-align: center;
+    margin: 0;
+}
+.content-image{
+    height: 70vh;
+}
+footer {
+    height: 60px;
+    margin-right: 25px;
+}
+
+}
