@@ -9,11 +9,11 @@ display: flex;
 flex-direction: column;
 width: 100vw;
 height: 100vh;
-background: linear-gradient(#CF2425,#DA6062 50%,#DA6062 60%,#DA3B3F);
+background: linear-gradient(#e72529,#9d3335 50%,#af3032 60%,#DA3B3F);
 
 }
 
-.background-image {
+.background-image{
     position: absolute;
     max-width: 100%;
     max-height: 100%;
@@ -27,6 +27,7 @@ background: linear-gradient(#CF2425,#DA6062 50%,#DA6062 60%,#DA3B3F);
 header{
     height: 100px;
 }
+
 header nav{
     height: 100%;
     display: flex;
@@ -50,9 +51,10 @@ main{
     color: #FFF;
     font-size: 2.25rem;
     width: 212px;
-    transform: translateX(-100%);
+    transform: translateX(-140%);
     text-align: end;
     margin-right: 24px;    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
@@ -74,11 +76,13 @@ footer{
 @media (max-width:768px) {
     header nav {
         margin-left: 25px;
+        align-items: flex-end;
     }
-    align-items: flex-end;
+    
 main {
     align-itens: flex-end;
 }
+
 .content-text {
     transform: translateX(0);
     top: 80px;
