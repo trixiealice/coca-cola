@@ -9,7 +9,7 @@ display: flex;
 flex-direction: column;
 width: 100vw;
 height: 100vh;
-background: linear-gradient(#e72529,#9d3335 50%,#af3032 60%,#DA3B3F);
+background: linear-gradient(#e72529,#9d2729 50%,#a0282a 60%,#DA3B3F);
 
 }
 
@@ -33,7 +33,7 @@ header nav{
     display: flex;
     align-items: center;
     gap: 20px;
-    color: white;
+    color: rgb(255, 255, 255);
     margin-left: 75px;
     font-family: sans-serif;
     cursor: pointer;
